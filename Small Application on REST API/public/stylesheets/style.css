@@ -1,0 +1,46 @@
+.container-fluid
+{
+  background:darkslateblue;
+  height: 700px;
+}
+.container
+{
+  height: 700px;
+  background:rebeccapurple;
+}
+#mc
+{
+  background: #5277ff;
+}
+input[type='text']
+{
+  width:900px;
+  height:60px;
+  font-size: 20px;
+}
+
+button
+{
+  height:60px;
+  width:220px;
+}
+ul
+{
+  list-style: none;
+  padding-left:0;
+  margin: 0;
+}
+ul li
+{
+  background:silver;
+  font-size:18px;
+  border: 1px solid black;
+  padding:10px;
+}
+
+ul li:hover
+{
+  background:darkred;
+  color: white;
+  cursor:pointer;
+}

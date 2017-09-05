@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css'>
+    <script src="/postIt.js"></script>
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div class="container">
+      <div id="mc">
+        <form>
+          <input class="form-group" id="texty" type="text" placeholder="add items">
+          <button id="submit" class="btn btn-info">ADD</button>
+        </form>
+        <ul>
+          <%for(var i=0;i<list.length;i++){%>
+          <li><%=list[i].item%></li>
+          <%}%>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
