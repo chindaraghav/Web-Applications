@@ -1,2 +1,3 @@
 This is a small Web applcation with the use of NodeJS,ExpressJS and MongoDB.
 This will add items to database...
+Application will run on localhost:8888.
